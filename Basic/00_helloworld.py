@@ -27,3 +27,4 @@ print(type((1, 3, 3)))                                  # tuple
 print(type({1.5, 5.2, 9.8}))                            # set
 print(type({"name": "Sara", "last_name": "Mejia"}))     # dict
 print(type(None))                                       # NoneType
+print(type(print("Hello World!")))                      # NoneType
